@@ -1,27 +1,43 @@
 ---
-title: 🪴 Quartz 3.3
+title: 🦎 Anolis Security Knowledge Base
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+# Anolis Security Outline
+![[images/Pasted image 20230309170403.png]]
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+# Knowledge Base
+## 1. trust computing
+### 1.1 TPM
+1. [[0.unsorted/EK与AK关系]]
+2. [[0.unsorted/TPM2.0 Hierarchy 设计]]
+3. [[0.unsorted/为什么 TPM 可以防重放]]
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+## 2. [[Attack Surface|ASM]]
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+## 3. [[MITRE ATT&CK]]
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+## 4. [[0.unsorted/SSC|Software Supply Chain]]
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
+## 5. General Security
+- [[0.unsorted/purple teaming]]
+- [[BAD Pyramid]]
+- [[Shift-Left Security]]
+- [[Threat Model]]
+- [[bug vs flaw]]
 
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+## 6. [[0.unsorted/Security Knowledge Base]]
 
+## Anolis Security Service
+
+### 攻防模拟
+- [Dettect](http://localhost:4400)
+
+### 安全情报
+- [龙蜥 ATT&CK Matrix](http://localhost:4200)
+
+### API/SDK 集成
+
+> [!INFO] TODO
+> - RESTful Service(SDK)
+> - Plugin/Addon
